@@ -60,3 +60,17 @@
   .slider.round:before {
     border-radius: 50%;
   } 
+
+  th {
+    text-align: center;
+  }
+
+  tr {
+    text-align: center;
+  }
+
+  /* bx:bx-filter-alt */
+  .filter-icon {
+    position: absolute;
+  }
+
