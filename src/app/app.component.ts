@@ -12,4 +12,5 @@ export class AppComponent {
   title4 = "Irrigação:"
   title5 = "Produtos"
   title6 = "Log da Horta"
+  title7 = "Colheita/Retirada"
 }
