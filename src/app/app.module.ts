@@ -9,6 +9,8 @@ import { LogDaHortaComponent } from './log-da-horta/log-da-horta.component';
 import { ColheitaRetiradaComponent } from './colheita-retirada/colheita-retirada.component';
 import { FotosComponent } from './fotos/fotos.component';
 import { SairComponent } from './sair/sair.component';
+import { DashboardClienteComponent } from './dashboard-cliente/dashboard-cliente.component';
+import { DashboardCuidadorComponent } from './dashboard-cuidador/dashboard-cuidador.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { SairComponent } from './sair/sair.component';
     LogDaHortaComponent,
     ColheitaRetiradaComponent,
     FotosComponent,
-    SairComponent
+    SairComponent,
+    DashboardClienteComponent,
+    DashboardCuidadorComponent
   ],
   imports: [
     BrowserModule,
