@@ -1,5 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +14,8 @@ import { FotosComponent } from './fotos/fotos.component';
 import { SairComponent } from './sair/sair.component';
 import { DashboardClienteComponent } from './dashboard-cliente/dashboard-cliente.component';
 import { DashboardCuidadorComponent } from './dashboard-cuidador/dashboard-cuidador.component';
+import { CadastroComponent } from './cadastro/cadastro.component';
+import { CadastroModule } from './cadastro/cadastro.module';
 
 @NgModule({
   declarations: [
@@ -22,11 +27,16 @@ import { DashboardCuidadorComponent } from './dashboard-cuidador/dashboard-cuida
     FotosComponent,
     SairComponent,
     DashboardClienteComponent,
-    DashboardCuidadorComponent
+    DashboardCuidadorComponent,
+    CadastroComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    RouterModule,
+    CadastroModule,
+    RouterModule.forRoot([])
   ],
   providers: [],
   bootstrap: [AppComponent]
