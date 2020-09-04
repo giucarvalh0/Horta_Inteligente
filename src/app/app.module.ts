@@ -16,6 +16,8 @@ import { DashboardClienteComponent } from './dashboard-cliente/dashboard-cliente
 import { DashboardCuidadorComponent } from './dashboard-cuidador/dashboard-cuidador.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { CadastroModule } from './cadastro/cadastro.module';
+import { LoginComponent } from './login/login.component';
+import { DisponibilizacaoComponent } from './disponibilizacao/disponibilizacao.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { CadastroModule } from './cadastro/cadastro.module';
     SairComponent,
     DashboardClienteComponent,
     DashboardCuidadorComponent,
-    CadastroComponent
+    CadastroComponent,
+    LoginComponent,
+    DisponibilizacaoComponent
   ],
   imports: [
     BrowserModule,

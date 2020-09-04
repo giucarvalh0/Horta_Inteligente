@@ -9,7 +9,7 @@ import { CadastroComponent } from './cadastro.component';
   imports: [
     CommonModule,
     RouterModule.forChild([
-      {path: 'cadastro', component: CadastroComponent}
+      { path: 'cadastro', component: CadastroComponent }
     ])
   ]
 })
