@@ -1,0 +1,16 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "name": "Jonas Lopes",
+      "email": "jonasmassume@gmail.com",
+      "pass": "12345oz"
+    },
+    {
+      "id": 2,
+      "name": "Teste",
+      "email": "teste@teste.com",
+      "pass": "12345oz"
+    }
+  ]
+}
