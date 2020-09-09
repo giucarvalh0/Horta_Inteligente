@@ -18,6 +18,8 @@ import { CadastroComponent } from './cadastro/cadastro.component';
 import { CadastroModule } from './cadastro/cadastro.module';
 import { LoginComponent } from './login/login.component';
 import { DisponibilizacaoComponent } from './disponibilizacao/disponibilizacao.component';
+import { RetiradaComponent } from './retirada/retirada.component';
+import { RecuperarSenhaComponent } from './recuperar-senha/recuperar-senha.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { DisponibilizacaoComponent } from './disponibilizacao/disponibilizacao.c
     DashboardCuidadorComponent,
     CadastroComponent,
     LoginComponent,
-    DisponibilizacaoComponent
+    DisponibilizacaoComponent,
+    RetiradaComponent,
+    RecuperarSenhaComponent
   ],
   imports: [
     BrowserModule,

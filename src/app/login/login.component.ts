@@ -13,8 +13,8 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  navigateToRegister(): void {
-    this.router.navigate(['/dashboard'])
+  navigateToDashboard(): void {
+    this.router.navigate(['/cliente-dashboard'])
   }
 
 }

@@ -1,3 +1,10 @@
 .image_background{
-    background-image: url(/assets/img/horta1.jpg);
-  }
+  background-image: url(/assets/img/horta1.jpg);
+}
+
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: #338326;
+  background-color: #338326;
+}
