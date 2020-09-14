@@ -1,3 +1,6 @@
 .form-row{
     display: grid;
 }
+.body{
+    width: 100%;
+}

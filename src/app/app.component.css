@@ -1,3 +1,7 @@
 .image_background{
   background-image: url(/assets/img/horta1.jpg);
 }
+
+.body{
+  width: 100%;
+}
