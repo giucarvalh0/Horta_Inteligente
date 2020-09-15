@@ -1,3 +1,9 @@
 .image_background{
-    background-image: url(/assets/img/horta1.jpg);
-  }
+  background-image: url(/assets/img/login_image.svg);
+  width: 50%;
+  vertical-align: top;
+  padding-left: 0px; 
+  padding-top: 0px; 
+  padding-bottom: 0px; 
+  padding-right: 0px;
+}
