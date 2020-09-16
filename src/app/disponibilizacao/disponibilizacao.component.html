@@ -1,328 +1,152 @@
 <html>
 
 <body>
-  <table style="border: 0px;" width=100% cellpadding="10">
-    <tr>
-      <td width="50%" valign="top">
-        <h1
-          style="text-align: center; margin-top:32px; margin-bottom: 35px; font-size: 40px; font-weight: 600; color: #7c7c7c;">
+  <table class="main-table"cellpadding="10">
+    <tr style="border-color: transparent;">
+      <td style="border-color: transparent;" width="50%" valign="top">
+        <h1 class="disp-title">
           Disponibilização de Produtos
         </h1>
-        <table style="width: 90%; 
-          font-size: 18px; 
-          line-height: 40px; 
-          margin-left: 35px; 
-          border-top-style: solid; 
-          border-top-width: 1px; 
-          border-left-style: solid; 
-          border-left-width: 1px; 
-          border-bottom-width: 1px; 
-          border-bottom-style: solid; 
-          border-right-width: 1px; 
-          border-right-style: solid; 
-          border-color: #7c7c7c">
+        <table class="disp-table">
           <thead>
-            <tr style=" border-color: #7c7c7c; border-bottom-style: solid;  text-align: center;">
-              <th style="color: #338326; border-bottom-width: 0px; border-color: #7c7c7c; line-height: 40px; width: 100%; text-align: center; font-size: 24px; border-right-width: 1px;" colspan="5" >Produtos Disponíveis</th>
+            <tr class="tr-thead-principal">
+              <th class="th-thead-principal" colspan="5" >Produtos Disponíveis</th>
             </tr> 
           </thead>
-          <tr style="color: #338326; border-color: #7c7c7c; border-bottom-width: 1px;border-bottom-style: solid;">
-            <th style="text-align: center;border-color: #7c7c7c; padding-bottom: 0px;padding-left: 1px; padding-top: 0px; padding-right: 1px; border-top-width: 1px; border-right-width: 1px; border-right-style: solid; line-height: 30px; width: 8%;" >CRD.</th>
-            <th style="text-align: center;border-color: #7c7c7c; padding-bottom: 0px;padding-left: 1px; padding-top: 0px; padding-right: 1px; border-top-width: 1px; border-right-width: 1px;border-right-style: solid; line-height: 30px; width: 23%;">Produto</th>
-            <th style="text-align: center;border-color: #7c7c7c; padding-bottom: 0px;padding-left: 1px; padding-top: 0px; padding-right: 1px; border-top-width: 1px; border-right-width: 1px;border-right-style: solid; line-height: 30px; width: 23%;">Quantidade existente</th>
-            <th style="text-align: center;border-color: #7c7c7c; padding-bottom: 0px;padding-left: 1px; padding-top: 0px; padding-right: 1px; border-top-width: 1px; border-right-width: 1px;border-right-style: solid; line-height: 30px; width: 23%;">Quantidade adicionada</th>
-            <th style="text-align: center;border-color: #7c7c7c; padding-bottom: 0px;padding-left: 1px; padding-top: 0px; padding-right: 1px; border-top-width: 1px; border-right-width: 1px;border-right-style: solid; line-height: 30px; width: 23%;">Quantidade atualizada</th>
+          <tr class="tr-head">
+            <th class="th-head" width="8%" >CRD.</th>
+            <th class="th-head" width="23%" >Produto</th>
+            <th class="th-head" width="23%">Quantidade existente</th>
+            <th class="th-head" width="23%">Quantidade adicionada</th>
+            <th class="th-head" width="23%">Quantidade atualizada</th>
           </tr>
-          <tr style="color: #7c7c7c; border-color: #7c7c7c; border-bottom-width: 1px;border-bottom-style: solid;">
-            <td style="text-align: center;padding-bottom: 0px;padding-left: 1px;padding-top: 0px;padding-right: 1px;border-right-width: 1px;border-right-style: solid;font-size: 14px;">C$1,00</td>
-            <td style="text-align: center;padding-bottom: 0px;padding-left: 1px;padding-top: 0px;padding-right: 1px;border-right-width: 1px;border-right-style: solid;">Tomate</td>
-            <td style="text-align: center;padding-bottom: 0px;padding-left: 1px;padding-top: 0px;padding-right: 1px;border-right-width: 1px;border-right-style: solid;">5</td>
-            <td style="padding-bottom: 1px;padding-left: 0px; padding-top: 0px; padding-right: 0px; border-right-width: 1px; border-right-style: solid;">
+          <tr>
+            <td>C$1,00</td>
+            <td>Tomate</td>
+            <td>5</td>
+            <td>
               <form>
                 <div class="form-row align-items-center">
                   <div class="col-auto" style=" text-align: center;">
-                    <input style="position: relative;
-                    text-align: center;
-                    padding-bottom: 1px;
-                    padding-left: 0px;
-                    padding-top: 0px; 
-                    padding-right: 0px;
-                    border-bottom-width: 0px; 
-                    border-bottom-style: solid; 
-                    border-top-width: 0px; 
-                    border-top-style: solid; 
-                    border-left-width: 0px; 
-                    border-left-style: solid; 
-                    border-right-width: 0px; 
-                    border-right-style: solid;
-                    font-style: italic;
-                    font-size: 14px;
-                    font-weight: 500;
-                    line-height: 25px;" type="text" class="form-control" id="inlineFormInputName" placeholder="Qtd. a ser adicionada">
+                    <input type="text" class="form-control" id="inlineFormInputName" placeholder="Qtd. a ser adicionada">
                   </div>
                 </div>
               </form>
             </td>
-            <td style="text-align: center;padding-bottom: 0px;padding-left: 1px;padding-top: 0px;padding-right: 1px;border-right-width: 1px;border-right-style: solid;">5</td>
+            <td>5</td>
           </tr>
-          <tr style="color: #7c7c7c; border-color: #7c7c7c; border-bottom-width: 1px;border-bottom-style: solid;">
-            <td style="text-align: center;padding-bottom: 0px;padding-left: 1px;padding-top: 0px;padding-right: 1px;border-right-width: 1px;border-right-style: solid;font-size: 14px;">C$2,00</td>
-            <td style="text-align: center;padding-bottom: 0px;padding-left: 1px;padding-top: 0px;padding-right: 1px;border-right-width: 1px;border-right-style: solid;">Alface</td>
-            <td style="text-align: center;padding-bottom: 0px;padding-left: 1px;padding-top: 0px;padding-right: 1px;border-right-width: 1px;border-right-style: solid;">20</td>
-            <td style="padding-bottom: 1px;padding-left: 0px; padding-top: 0px; padding-right: 0px; border-right-width: 1px; border-right-style: solid;">
+          <tr>
+            <td>C$2,00</td>
+            <td>Alface</td>
+            <td>20</td>
+            <td>
               <form>
                 <div class="form-row align-items-center">
                   <div class="col-auto">
-                    <input style="text-align: center;
-                    padding-bottom: 1px;
-                    padding-left: 0px; 
-                    padding-top: 0px; 
-                    padding-right: 0px; 
-                    border-bottom-width: 0px; 
-                    border-bottom-style: solid; 
-                    border-top-width: 0px; 
-                    border-top-style: solid;
-                    border-left-width: 0px; 
-                    border-left-style: solid; 
-                    border-right-width: 0px; 
-                    border-right-style: solid;
-                    font-style: italic;
-                    font-size: 14px;
-                    font-weight: 500;
-                    line-height: 25px;" type="text" class="form-control" id="inlineFormInputName" placeholder="Qtd. a ser adicionada">
+                    <input type="text" class="form-control" id="inlineFormInputName" placeholder="Qtd. a ser adicionada">
                   </div>
                 </div>
               </form>
             </td>
-            <td style="text-align: center;padding-bottom: 0px;padding-left: 1px;padding-top: 0px;padding-right: 1px;border-right-width: 1px;border-right-style: solid;">20</td>
+            <td>20</td>
           </tr>
-          <tr style="color: #7c7c7c; border-color: #7c7c7c; border-bottom-width: 1px;border-bottom-style: solid;">
-            <td style="text-align: center;padding-bottom: 0px;padding-left: 1px;padding-top: 0px;padding-right: 1px;border-right-width: 1px;border-right-style: solid;font-size: 14px;">C$3,00</td>
-            <td style="text-align: center;padding-bottom: 0px;padding-left: 1px;padding-top: 0px;padding-right: 1px;border-right-width: 1px;border-right-style: solid;">Rúcula</td>
-            <td style="text-align: center;padding-bottom: 0px;padding-left: 1px;padding-top: 0px;padding-right: 1px;border-right-width: 1px;border-right-style: solid;">10</td>
-            <td style="padding-bottom: 1px;padding-left: 0px; padding-top: 0px; padding-right: 0px; border-right-width: 1px; border-right-style: solid;">
+          <tr>
+            <td>C$3,00</td>
+            <td>Rúcula</td>
+            <td>10</td>
+            <td>
               <form style="text-align: center;">
                 <div class="form-row align-items-center" style="text-align: center;">
                   <div class="col-auto" style="text-align: center;">
-                    <input style="text-align: center;
-                    padding-bottom: 1px;
-                    padding-left: 0px; 
-                    padding-top: 0px; 
-                    padding-right: 0px; 
-                    border-bottom-width: 0px; 
-                    border-bottom-style: solid; 
-                    border-top-width: 0px; 
-                    border-top-style: solid;
-                    border-left-width: 0px; 
-                    border-left-style: solid; 
-                    border-right-width: 0px; 
-                    border-right-style: solid;
-                    font-style: italic;
-                    font-size: 14px;
-                    font-weight: 500;
-                    line-height: 25px;" type="text" class="form-control" id="inlineFormInputName" placeholder="Qtd. a ser adicionada">
+                    <input type="text" class="form-control" id="inlineFormInputName" placeholder="Qtd. a ser adicionada">
                   </div>
                 </div>
               </form>
             </td>
-            <td style="text-align: center;padding-bottom: 0px;padding-left: 1px;padding-top: 0px;padding-right: 1px;border-right-width: 1px;border-right-style: solid;">10</td>
+            <td>10</td>
           </tr>
-          <tr style="color: #7c7c7c; border-color: #7c7c7c; border-bottom-width: 1px;border-bottom-style: solid;">
-            <td style="text-align: center;padding-bottom: 0px;padding-left: 1px;padding-top: 0px;padding-right: 1px;border-right-width: 1px;border-right-style: solid;font-size: 14px;">C$4,00</td>
-            <td style="text-align: center;padding-bottom: 0px;padding-left: 1px;padding-top: 0px;padding-right: 1px;border-right-width: 1px;border-right-style: solid;">Pimenta</td>
-            <td style="text-align: center;padding-bottom: 0px;padding-left: 1px;padding-top: 0px;padding-right: 1px;border-right-width: 1px;border-right-style: solid;">25</td>
-            <td style="padding-bottom: 1px;padding-left: 0px; padding-top: 0px; padding-right: 0px; border-right-width: 1px; border-right-style: solid;">
+          <tr>
+            <td>C$4,00</td>
+            <td>Pimenta</td>
+            <td>25</td>
+            <td>
               <form>
                 <div class="form-row align-items-center">
                   <div class="col-auto">
-                    <input style="text-align: center;
-                    padding-bottom: 1px;
-                    padding-left: 0px; 
-                    padding-top: 0px; 
-                    padding-right: 0px; 
-                    border-bottom-width: 0px; 
-                    border-bottom-style: solid; 
-                    border-top-width: 0px; 
-                    border-top-style: solid;
-                    border-left-width: 0px; 
-                    border-left-style: solid; 
-                    border-right-width: 0px; 
-                    border-right-style: solid;
-                    font-style: italic;
-                    font-size: 14px;
-                    font-weight: 500;
-                    line-height: 25px;" type="text" class="form-control" id="inlineFormInputName" placeholder="Qtd. a ser adicionada">
+                    <input type="text" class="form-control" id="inlineFormInputName" placeholder="Qtd. a ser adicionada">
                   </div>
                 </div>
               </form>
             </td>
-            <td style="text-align: center;padding-bottom: 0px;padding-left: 1px;padding-top: 0px;padding-right: 1px;border-right-width: 1px;border-right-style: solid;">25</td>
+            <td>25</td>
           </tr>
-          <tr style="color: #7c7c7c; border-color: #7c7c7c; border-bottom-width: 1px;border-bottom-style: solid;">
-            <td style="text-align: center;padding-bottom: 0px;padding-left: 1px;padding-top: 0px;padding-right: 1px;border-right-width: 1px;border-right-style: solid;font-size: 14px;">C$5,00</td>
-            <td style="text-align: center;padding-bottom: 0px;padding-left: 1px;padding-top: 0px;padding-right: 1px;border-right-width: 1px;border-right-style: solid;">Cebola</td>
-            <td style="text-align: center;padding-bottom: 0px;padding-left: 1px;padding-top: 0px;padding-right: 1px;border-right-width: 1px;border-right-style: solid;">0</td>
-            <td style="padding-bottom: 1px;padding-left: 0px; padding-top: 0px; padding-right: 0px; border-right-width: 1px; border-right-style: solid;">
+          <tr>
+            <td>C$5,00</td>
+            <td>Cebola</td>
+            <td>0</td>
+            <td>
               <form>
                 <div class="form-row align-items-center">
                   <div class="col-auto">
-                    <input style="text-align: center;
-                    padding-bottom: 1px;
-                    padding-left: 0px; 
-                    padding-top: 0px; 
-                    padding-right: 0px; 
-                    border-bottom-width: 0px; 
-                    border-bottom-style: solid; 
-                    border-top-width: 0px; 
-                    border-top-style: solid;
-                    border-left-width: 0px; 
-                    border-left-style: solid; 
-                    border-right-width: 0px; 
-                    border-right-style: solid;
-                    font-style: italic;
-                    font-size: 14px;
-                    font-weight: 500;
-                    line-height: 25px;" type="text" class="form-control" id="inlineFormInputName" placeholder="Qtd. a ser adicionada">
+                    <input type="text" class="form-control" id="inlineFormInputName" placeholder="Qtd. a ser adicionada">
                   </div>
                 </div>
               </form>
             </td>
-            <td style="text-align: center;padding-bottom: 0px;padding-left: 1px;padding-top: 0px;padding-right: 1px;border-right-width: 1px;border-right-style: solid;">0</td>
+            <td>0</td>
           </tr>
-          <tr style="color: #7c7c7c; border-color: #7c7c7c; border-bottom-width: 1px; border-bottom-style: solid;letter-spacing: -1.6px;line-height: 106px;font-size: 14px;font-weight: 400;">
-            <td style="padding-bottom: 1px;padding-left: 0px; padding-top: 0px; padding-right: 0px; border-right-width: 1px; border-right-style: solid;">
+          <tr>
+            <td>
               <form>
                 <div class="form-row align-items-center">
                   <div class="col-auto">
-                    <input style="text-align: center;
-                    padding-bottom: 1px;
-                    padding-left: 0px; 
-                    padding-top: 0px; 
-                    padding-right: 0px; 
-                    border-bottom-width: 0px; 
-                    border-bottom-style: solid; 
-                    border-top-width: 0px; 
-                    border-top-style: solid;
-                    border-left-width: 0px; 
-                    border-left-style: solid; 
-                    border-right-width: 0px; 
-                    border-right-style: solid;
-                    font-style: italic;
-                    font-size: 14px;
-                    font-weight: 500;
-                    line-height: 25px;" type="text" class="form-control" id="inlineFormInputName" placeholder="Custo">
+                    <input type="text" class="form-control" id="inlineFormInputName" placeholder="Custo">
                   </div>
                 </div>
               </form>
             </td>
-            <td style="padding-bottom: 1px;padding-left: 0px; padding-top: 0px; padding-right: 0px; border-right-width: 1px; border-right-style: solid;">
+            <td>
               <form>
                 <div class="form-row align-items-center">
                   <div class="col-auto">
-                    <input style="text-align: center;
-                    padding-bottom: 1px;
-                    padding-left: 0px; 
-                    padding-top: 0px; 
-                    padding-right: 0px; 
-                    border-bottom-width: 0px; 
-                    border-bottom-style: solid; 
-                    border-top-width: 0px; 
-                    border-top-style: solid;
-                    border-left-width: 0px; 
-                    border-left-style: solid; 
-                    border-right-width: 0px; 
-                    border-right-style: solid;
-                    font-style: italic;
-                    font-size: 14px;
-                    font-weight: 500;
-                    line-height: 25px;" type="text" class="form-control" id="inlineFormInputName" placeholder="Nome do Produto">
+                    <input type="text" class="form-control" id="inlineFormInputName" placeholder="Nome do Produto">
                   </div>
                 </div>
               </form>
             </td>
-            <td style="padding-bottom: 1px;padding-left: 0px; padding-top: 0px; padding-right: 0px; border-right-width: 1px; border-right-style: solid;">
+            <td>
               <form>
                 <div class="form-row align-items-center">
                   <div class="col-auto">
-                    <input style="text-align: center;
-                    padding-bottom: 1px;
-                    padding-left: 0px; 
-                    padding-top: 0px; 
-                    padding-right: 0px; 
-                    border-bottom-width: 0px; 
-                    border-bottom-style: solid; 
-                    border-top-width: 0px; 
-                    border-top-style: solid;
-                    border-left-width: 0px; 
-                    border-left-style: solid; 
-                    border-right-width: 0px; 
-                    border-right-style: solid;
-                    font-style: italic;
-                    font-size: 14px;
-                    font-weight: 500;
-                    line-height: 25px;" type="text" class="form-control" id="inlineFormInputName" placeholder="Qtd. existente">
+                    <input type="text" class="form-control" id="inlineFormInputName" placeholder="Qtd. existente">
                   </div>
                 </div>
               </form>
             </td>
-            <td style="padding-bottom: 1px;padding-left: 0px; padding-top: 0px; padding-right: 0px; border-right-width: 1px; border-right-style: solid;">
+            <td>
               <form>
                 <div class="form-row align-items-center">
                   <div class="col-auto">
-                    <input style="text-align: center;
-                    padding-bottom: 1px;
-                    padding-left: 0px; 
-                    padding-top: 0px; 
-                    padding-right: 0px; 
-                    border-bottom-width: 0px; 
-                    border-bottom-style: solid; 
-                    border-top-width: 0px; 
-                    border-top-style: solid;
-                    border-left-width: 0px; 
-                    border-left-style: solid; 
-                    border-right-width: 0px; 
-                    border-right-style: solid;
-                    font-style: italic;
-                    font-size: 14px;
-                    font-weight: 500;
-                    line-height: 25px;" type="text" class="form-control" id="inlineFormInputName" placeholder="Qtd. a ser adicionada">
+                    <input type="text" class="form-control" id="inlineFormInputName" placeholder="Qtd. a ser adicionada">
                   </div>
                 </div>
               </form>
             </td>
-            <td style="text-align: center;padding-bottom: 0px;padding-left: 1px;padding-top: 0px;padding-right: 1px;border-right-width: 1px;border-right-style: solid;"></td>
           </tr>
         </table>
         <!-- <img src="./assets/img/add_products.svg" height="24" width="24" alt=" "> ALINHAR COM A ÚLTIMA LINHA -->
-        <table style="width: 90%; 
-          font-size: 24px; 
-          margin-left: 45px; 
-          margin-top: 50px;
-          border-top-style: solid; 
-          border-top-width: 1px; 
-          border-left-style: solid; 
-          border-left-width: 1px; 
-          border-bottom-width: 1px; 
-          border-bottom-style: solid; 
-          border-right-width: 1px; 
-          border-right-style: solid;
-          border-color: white;
-          float: center;">
-          <tr>
-            <td>
-              <h1 style="text-align: center; margin-bottom: 25px;">
-                <a class="button" href="#"
-                  style="float: center; border:1px solid; vertical-align: middle; background:#338326; color:white; font-weight: 600; border-radius:6px; font-size: 24px; padding-left: 80px;padding-right: 80px;padding-bottom: 10px;padding-top: 10px;">Disponibilizar</a>
+        <table class="button-table">
+          <tr style="border-color: transparent;">
+            <td style="border-color: transparent;">
+              <h1 class="disp-button-h1">
+                <a class="disp-button" href="#">Disponibilizar</a>
               </h1>
             </td>
           </tr>
-
         </table>
       </td>
-      <td width="50%" valign="top"
-        style="padding-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 0px;">
-        <!-- ADICIONAR A IMAGEM  -->
-      </td>
+
+      <td class="image_background"></td>
 
     </tr>
   </table>

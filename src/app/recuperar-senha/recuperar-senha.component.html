@@ -1,68 +1,43 @@
 <html>
 
 <body>
-  <table style="border: 0px;" width=100% cellpadding="10">
+  <table cellpadding="10">
     <tr>
-      <td width="50%" valign="top">
-        <h1 style="text-align: center; margin-top: 150px; margin-bottom: 20px; font-size: 48px; font-weight: 600; color: #7c7c7c;">
+      <td>
+        <h1 class="recuperar-senha">
           Recuperar Senha
         </h1>
-        <form style="padding-left: 55px;">
-          <div style="margin-bottom: 5px;" class="form-group row">
-            <label for="staticEmail" class="col-sm-1 col-form-label"
-              style="color: #7c7c7c; font-size: 24px; font-weight: 600;">Email:</label>
-            <div class="col-sm-5" style="left: 225px;top: 12px;bottom: 0px;">
-              <input type="text" class="form-control" id="staticEmail"
-                style="border-top-width: 2px;border-left-width: 2px;border-bottom-width: 2px;border-right-width: 2px;">
+        <form>
+          <div class="form-group row">
+            <label for="staticEmail" class="col-sm-1 col-form-label">Email:</label>
+            <div class="col-sm-5 form-label-1">
+              <input type="text" class="form-control" id="staticEmail">
             </div>
           </div>
-         
-          <div style="margin-bottom: 5px;" class="form-group row">
-            <label for="inputPassword" class="col-sm-1 col-form-label"
-              style="color: #7c7c7c; font-size: 24px; font-weight: 600;">Senha:</label>
-            <div class="col-sm-5" style="left: 225px;top: 12px;bottom: 0px;">
-              <input type="password" class="form-control" id="inputPassword"
-                style="border-top-width: 2px;border-left-width: 2px;border-bottom-width: 2px;border-right-width: 2px;">
+          <div class="form-group row">
+            <label for="inputPassword" class="col-sm-1 col-form-label">Senha:</label>
+            <div class="col-sm-5 form-label-1">
+              <input type="password" class="form-control" id="inputPassword">
             </div>
           </div>
           <div style="margin-bottom: 5px;" class="form-group row">
-            <label for="inputPassword" class="col-sm-1 col-form-label"
-              style="color: #7c7c7c; font-size: 24px; font-weight: 600;">Confirmar Senha:</label>
-            <div class="col-sm-5" style="left: 225px;top: 12px;bottom: 0px;">
-              <input type="password" class="form-control" id="inputPassword"
-                style="border-top-width: 2px;border-left-width: 2px;border-bottom-width: 2px;border-right-width: 2px;">
+            <label for="inputPassword" class="col-sm-1 col-form-label">Confirmar Senha:</label>
+            <div class="col-sm-5 form-label-1">
+              <input type="password" class="form-control" id="inputPassword">
             </div>
           </div>
         </form>
-        <table style="width: 90%; 
-            font-size: 24px; 
-            margin-left: 45px; 
-            margin-top: 10px;
-            margin-bottom: 105px;
-            border-top-style: solid; 
-            border-top-width: 1,5px; 
-            border-left-style: solid; 
-            border-left-width: 1,5px; 
-            border-bottom-width: 1,5px; 
-            border-bottom-style: solid; 
-            border-right-width: 1,5px; 
-            border-right-style: solid;
-            border-color: white;
-            float: center;">
+        <table class="table-botao">
           <tr>
             <td>
-              <h1 style="text-align: center; margin-bottom: 10px;">
-                <a class="button" routerLink=""
-                  style="float: center; border:1px solid; vertical-align: middle; background:#338326; color:white; font-weight: 600; border-radius:6px; font-size: 24px; padding-left: 80px;padding-right: 80px;padding-bottom: 10px;padding-top: 10px;">Recuperar Senha</a>
+              <h1 class="recuperar-senha-button-h1">
+                <a class="recuperar-senha-button" routerLink="">Recuperar Senha</a>
               </h1>
             </td>
           </tr>
         </table>
       </td>
-      <td width="50%" valign="top"
-        style="padding-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 0px;">
-        <!-- ADICIONAR A IMAGEM  -->
-      </td>
+      <td class="image_background"></td>
     </tr>
   </table>
 </body>

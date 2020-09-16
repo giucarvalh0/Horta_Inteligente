@@ -3,67 +3,41 @@
 <body>
     <table style="border: 0px;" width=100% cellpadding="10">
         <tr>
-
             <td width="50%" valign="top">
-                <h1
-                    style="text-align: center; margin-top:100px; margin-bottom: 60px; font-size: 56px; font-weight: 600; color: #7c7c7c;">
-                    Login
-                </h1>
-                <form style="padding-left: 30px;">
-                    <div style="margin-bottom: 30px;" class="form-group row">
-                        <label for="staticEmail" class="col-sm-2 col-form-label"
-                            style="color: #7c7c7c; font-size: 32px; font-weight: 600;">Email:</label>
-                        <div class="col-sm-6" style="left: 170px;top: 12px;bottom: 0px;">
-                            <input type="text" class="form-control" id="staticEmail"
-                                style="border-top-width: 2px;border-left-width: 2px;border-bottom-width: 2px;border-right-width: 2px;">
+                <h1 class="login-title">Login</h1>
+                <form>
+                    <div class="form-group row">
+                        <label for="staticEmail" class="col-sm-2 col-form-label">Email:</label>
+                        <div class="col-sm-6 form-div">
+                            <input type="text" class="form-control" id="staticEmail">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="inputPassword" class="col-sm-2 col-form-label"
-                            style="color: #7c7c7c; font-size: 32px; font-weight: 600;">Senha:</label>
-                        <div class="col-sm-6" style="left: 170px;top: 12px;bottom: 0px;">
-                            <input type="password" class="form-control" id="inputPassword"
-                                style="border-top-width: 2px;border-left-width: 2px;border-bottom-width: 2px;border-right-width: 2px;">
-                            <a class="button" routerLink="/recuperar-senha"
-                                style="color: #6c757d9a; float: right; text-align: right; font-size: 13px; font-weight: 600; ">Esqueci minha senha</a>
+                        <label for="inputPassword" class="col-sm-2 col-form-label">Senha:</label>
+                        <div class="col-sm-6 form-div">
+                            <input type="password" class="form-control" id="inputPassword">
+                            <a class="esqueci-senha-button" routerLink="/recuperar-senha">Esqueci minha senha</a>
                         </div>
                     </div>
                 </form>
-                <table style="width: 90%; 
-                font-size: 24px; 
-                margin-left: 45px; 
-                margin-top: 50px;
-                border-top-style: solid; 
-                border-top-width: 1,5px; 
-                border-left-style: solid; 
-                border-left-width: 1,5px; 
-                border-bottom-width: 1,5px; 
-                border-bottom-style: solid; 
-                border-right-width: 1,5px; 
-                border-right-style: solid;
-                border-color: white;
-                float: center;">
+                <table class="table-botao">
                     <tr>
                         <td>
-                            <h1 style="text-align: center; margin-bottom: 25px;">
-                                <a class="button" (click) = "navigateToDashboard()"
-                                    style="cursor: pointer; float: center; border:1px solid; vertical-align: middle; background:#338326; color:white; font-weight: 600; border-radius:6px; font-size: 24px; padding-left: 80px;padding-right: 80px;padding-bottom: 10px;padding-top: 10px;">Entrar</a>
+                            <h1 class="button-h1">
+                                <a class="entrar-button" (click) = "navigateToDashboard()">Entrar</a>
                             </h1>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <h1 style="text-align: center;">
-                                <a class="button" routerLink="/cadastro"
-                                    style="float: center; border:1px solid; vertical-align: middle; border-color: #338326; background: white; color:#338326; font-weight: 600; border-radius:6px; font-size: 24px; padding-left: 60px;padding-right: 60px;padding-bottom: 10px;padding-top: 10px; border-left-width: 2px;border-bottom-width: 2px;border-right-width: 2px;border-top-width: 2px;">Cadastrar</a>
+                            <h1 class="button-h1">
+                                <a class="cadastrar-button" routerLink="/cadastro">Cadastrar</a>
                             </h1>
                         </td>
                     </tr>
                 </table>
             </td>
-
             <td class="image_background"></td>
-
         </tr>
     </table>
 </body>

@@ -1,0 +1,81 @@
+table{
+    border: 0px;
+    width: 100%; 
+}
+td{
+    width: 50%;
+    vertical-align: top;
+}
+.recuperar-senha{
+    text-align: center; 
+    margin-top: 150px; 
+    margin-bottom: 20px; 
+    font-size: 48px; 
+    font-weight: 600; 
+    color: #7c7c7c;
+}
+form{
+    padding-left: 55px;
+}
+.form-group row{
+    margin-bottom: 5px;
+}
+.col-form-label{
+    color: #7c7c7c; 
+    font-size: 24px; 
+    font-weight: 600;
+}
+.form-control{
+    border-top-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    border-right-width: 2px;
+}
+.form-label-1{
+    left: 225px;
+    top: 12px;
+    bottom: 0px;
+}
+.table-botao{
+    width: 90%; 
+    font-size: 24px; 
+    margin-left: 45px; 
+    margin-top: 10px;
+    border-top-style: solid; 
+    border-top-width: 1,5px; 
+    border-left-style: solid; 
+    border-left-width: 1,5px; 
+    border-bottom-width: 1,5px; 
+    border-bottom-style: solid; 
+    border-right-width: 1,5px; 
+    border-right-style: solid;
+    border-color: white;
+    float: center;
+}
+.recuperar-senha-button{
+    float: center; 
+    border:1px solid; 
+    vertical-align: middle; 
+    background:#338326; 
+    color:white; 
+    font-weight: 600; 
+    border-radius:6px; 
+    font-size: 24px; 
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.recuperar-senha-button-h1{
+    text-align: center; 
+    margin-bottom: 100px;
+}
+.image_background{
+    background-image: url(/assets/img/recup_senha_image.svg);
+    width: 50%;
+    vertical-align: top;
+    padding-left: 0px; 
+    padding-top: 0px; 
+    padding-bottom: 0px; 
+    padding-right: 0px;
+}
