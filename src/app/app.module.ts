@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -44,7 +45,8 @@ import { RecuperarSenhaComponent } from './recuperar-senha/recuperar-senha.compo
     FormsModule,
     RouterModule,
     CadastroModule,
-    RouterModule.forRoot([])
+    RouterModule.forRoot([]),
+    MatSnackBarModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
