@@ -1,11 +1,17 @@
+.main{
+  display: grid;
+  grid-template-columns: repeat(auto-fill);
+  grid-template-rows: repeat(auto-fill);
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+}
 .image_background{
-  background-image: url(/assets/img/login_image.svg);
-  width: 50%;
-  vertical-align: top;
-  padding-left: 0px; 
-  padding-top: 0px; 
-  padding-bottom: 0px; 
-  padding-right: 0px;
+  margin: 0 auto;
+  background-image: url(/assets/img/login_image.jpg);
+  max-width: 40%;
+  height: auto;
 }
 .login-title{
   text-align: center; 
