@@ -1,20 +1,47 @@
-.main{
+/* .main{
   display: grid;
+  margin: 0 auto;
   grid-template-columns: repeat(auto-fill);
   grid-template-rows: repeat(auto-fill);
   width: 100%;
   height: auto;
   margin: 0px;
   padding: 0px;
+} */
+.content{
+  width: 50%;
+  grid-template-columns: repeat(auto-fill);
+  grid-template-rows: repeat(auto-fill);
+  vertical-align: top;
 }
-.image_background{
+
+.rectangle{
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-right-width: 1px;
+  border-left-width: 1px;
+  border-color: black;
+}
+
+.imagem{
+  grid-template-columns: repeat(auto-fit);
+  grid-template-rows: repeat(auto-fit);
+  position: fixed;
   margin: 0 auto;
-  background-image: url(/assets/img/login_image.jpg);
-  max-width: 40%;
+  max-width: 50%;
   height: auto;
+  width: auto;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  vertical-align: top;
 }
+
 .login-title{
+  margin: 0 auto;
   text-align: center; 
+  vertical-align: top;
   margin-top:100px; 
   margin-bottom: 60px; 
   font-size: 56px; 
@@ -75,7 +102,7 @@ input{
   cursor: pointer; 
   float: center; 
   border:1px solid; 
-  vertical-align: middle; 
+  vertical-align: top; 
   background:#338326; 
   color:white; 
   font-weight: 600; 
@@ -89,7 +116,7 @@ input{
 .cadastrar-button{
   float: center; 
   border:1px solid; 
-  vertical-align: middle; 
+  vertical-align: top; 
   border-color: #338326; 
   background: white; 
   color:#338326; 

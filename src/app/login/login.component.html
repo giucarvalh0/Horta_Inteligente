@@ -5,22 +5,24 @@
         <meta name="viewport" content="width=device-width, height=device-width, initial-scale=1">
     </head>
 <body>
-    <div class="main">
-        <table style="border: 0px; padding:0px" width=100% cellpadding="10">
-        <tr>
-            <td width="50%" valign="top">
-                <h1 class="login-title">Login</h1>
+    <div class="container rectangle">
+        <div class="row">
+            <div class="col-md-6">
+                <div>
+                    <h1 class="login-title">Login</h1>
+                </div>
+                
                 <form>
                     <div class="form-group row">
-                        <label for="staticEmail" class="col-sm-2 col-form-label">Email:</label>
+                        <label for="Email" class="col-sm-2 col-form-label">Email:</label>
                         <div class="col-sm-6 form-div">
-                            <input type="text" class="form-control" id="staticEmail">
+                            <input type="email" class="form-control" id="Email">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="inputPassword" class="col-sm-2 col-form-label">Senha:</label>
+                        <label for="Password" class="col-sm-2 col-form-label">Senha:</label>
                         <div class="col-sm-6 form-div">
-                            <input type="password" class="form-control" id="inputPassword">
+                            <input type="password" class="form-control" id="Password">
                             <a class="esqueci-senha-button" routerLink="/recuperar-senha">Esqueci minha senha</a>
                         </div>
                     </div>
@@ -41,12 +43,14 @@
                         </td>
                     </tr>
                 </table>
-            </td>
-            <td 
-                class="image_background">
-            </td>
-        </tr>
-    </table>
+            </div>
+            <div class="col-xs-6"> 
+                <img src="/assets/img/login_image.jpg" width="500" height="700" class="img-responsive"/>
+            </div>
+        </div>
+
+        
+       
     </div>
     
 </body>
