@@ -17,6 +17,12 @@
       "name": "Giuliano Carvalho",
       "email": "giuliano.carvalho01@gmail.com",
       "pass": "12345oz"
+    },
+    {
+      "id": 4,
+      "name": "Usuário_X",
+      "email": "usuario@email.com",
+      "pass": "12345oz"
     }
   ]
-} 
+}

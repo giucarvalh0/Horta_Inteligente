@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { HttpClientModule } from '@angular/common/http'
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -40,6 +41,7 @@ import { RecuperarSenhaComponent } from './recuperar-senha/recuperar-senha.compo
     RecuperarSenhaComponent
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
     AppRoutingModule,
     FormsModule,
