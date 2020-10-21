@@ -19,7 +19,4 @@ export class ClienteService {
     private httpClient: HttpClient
   ) { }
 
-  public getLivesWithFlag (flag: string): Observable<> {
-    return this.httpClient.get<>(this.apiUrl + '?flag=' + flag);
-  }
 }

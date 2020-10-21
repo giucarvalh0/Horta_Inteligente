@@ -3,4 +3,5 @@ export interface Client_cliente {
     name: string
     email: string
     pass: string
+    cred: number
 }
